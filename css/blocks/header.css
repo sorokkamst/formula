@@ -54,6 +54,7 @@
     background-image: url("../../img/burger.svg");
     margin-bottom: 14px;
     margin-right: 4px;
+    cursor: pointer;
   }
 }
 

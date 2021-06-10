@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Gotham Pro Light"), url("../../fonts/GothamPro-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gotham Pro"), url("../../fonts/GothamPro.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Gotham Pro Medium"), url("../../fonts/GothamPro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gotham Pro Bold"), url("../../fonts/GothamPro-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), url("../../fonts/OpenSans-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), url("../../fonts/OpenSans.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), url("../../fonts/OpenSans-Bold.woff2") format("woff2");
+}

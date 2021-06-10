@@ -1,0 +1,13 @@
+/* global */
+
+@import "../css/global/fonts.css";
+@import "../css/global/page.css";
+@import "../css/global/container.css";
+@import "../css/global/visually-hidden.css";
+
+/* blocks */
+@import "../css/blocks/header.css";
+@import "../css/blocks/first-screen.css";
+@import "../css/blocks/contacts.css";
+@import "../css/blocks/footer.css";
+@import "../css/blocks/form.css";

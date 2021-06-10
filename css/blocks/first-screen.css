@@ -1,0 +1,239 @@
+.first-screen {
+  display: flex;
+}
+
+@media (max-width: 1390px) {
+  .first-screen__left-side {
+    padding: 23px 0 47px 0;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__left-side {
+    padding: 157px 0 0 30px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__company {
+    position: relative;
+    margin: 0;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: calc(32px * 0.02);
+    color: #ffffff;
+    padding: 0 0 46px 0;
+    margin-bottom: 9px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__list-item--desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__list-item--desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__list-item--mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__list-item--desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__company {
+    position: relative;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: calc(48px * 0.02);
+    color: #ffffff;
+    padding: 0 0 46px 0;
+    margin-bottom: 22px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__company::before {
+    position: absolute;
+    content: "";
+    width: 82px;
+    height: 5px;
+    background-color: #2f80ed;
+    bottom: 24px;
+    left: 0;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__company::before {
+    position: absolute;
+    content: "";
+    width: 82px;
+    height: 5px;
+    background-color: #2f80ed;
+    bottom: 0;
+    left: 4px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__list {
+    margin: 0;
+    margin-bottom: 26px;
+    margin-left: 1px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 638px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__list {
+    margin: 0;
+    margin-bottom: 118px;
+    padding: 0 0 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 638px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__list-item .first-screen__list-link {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: calc(16px * 0.02);
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__list-item .first-screen__list-link {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: calc(16px * 0.02);
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__buttons {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__buttons {
+    margin-left: 4px;
+    display: flex;
+  }
+}
+
+.first-screen__buttons .first-screen__button:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media (max-width: 1390px) {
+  .first-screen__button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: calc(16px * 0.02);
+    min-width: 236px;
+    min-height: 58px;
+    border: 1px solid #5cf39b;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #000000;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: calc(16px * 0.02);
+    min-width: 276px;
+    min-height: 58px;
+    border: 1px solid #5cf39b;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+}
+
+.first-screen__buttons-first {
+  color: #000000;
+  background-color: #5cf39b;
+  box-shadow: 0px 10px 20px rgba(92, 243, 155, 0.2);
+}
+
+@media (max-width: 1390px) {
+  .first-screen__buttons-second {
+    display: none;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__buttons-second {
+    display: block;
+    color: #5cf39b;
+    background-color: transparent;
+  }
+}
+
+.first-screen__list-item--hashtag {
+  color: #5cf39b;
+}
+
+@media (max-width: 1390px) {
+  .first-screen__list-item:not(:last-child) {
+    padding: 0 9px 0 0;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__list-item:not(:last-child) {
+    padding: 0 12px 0 0;
+  }
+}
+
+@media (max-width: 1390px) {
+  .first-screen__right-side {
+    display: none;
+  }
+}
+
+@media (min-width: 1390px) {
+  .first-screen__right-side {
+    display: block;
+    width: 500px;
+    position: relative;
+    top: -86px;
+    left: 230px;
+  }
+}
+
+.first-screen__right-side-img {
+  max-height: 800px;
+}

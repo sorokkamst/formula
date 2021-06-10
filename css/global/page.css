@@ -1,0 +1,19 @@
+.page-body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Pro", sans-serif;
+}
+
+.page-header {
+  background-image: url("../../img/background.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+.overflow {
+  overflow-x: hidden;
+}

@@ -1,0 +1,257 @@
+@media (max-width: 1390px) {
+  .contacts__section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__section {
+    display: flex;
+    padding-right: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts {
+    display: flex;
+    padding: 0 55px 0 0;
+    z-index: 2;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__container {
+    padding: 82px 0 150px 33px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__header {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: calc(48px * 0.02);
+    font-weight: 700;
+    padding: 0 0 19px 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__header {
+    position: relative;
+    font-size: 48px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: calc(48px * 0.02);
+    font-weight: 700;
+    padding: 0 0 19px 0;
+    margin: 0;
+  }
+}
+
+.contacts__header::before {
+  position: absolute;
+  content: "";
+  width: 82px;
+  height: 5px;
+  background-color: #2f80ed;
+  bottom: 0;
+}
+
+@media (max-width: 1390px) {
+  .contacts__heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19242c;
+    margin: 0;
+    padding: 0 0 0 5px;
+  }
+}
+
+
+@media (min-width: 1390px) {
+  .contacts__heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19242c;
+    margin: 0;
+  }
+}
+
+.contacts__delivery {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1390px) {
+  .contacts__address {
+    margin-top: 32px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__address {
+    margin-top: 56px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__delivery {
+    margin-top: 28px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__delivery {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__location-address,
+  .contacts__delivery-info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: calc(16px * 0.02);
+    font-weight: 300;
+    color: #19242c;
+    margin: 0;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__location-address,
+  .contacts__delivery-info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    letter-spacing: calc(18px * 0.02);
+    font-weight: 300;
+    color: #19242c;
+    margin: 0;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__delivery-info {
+    padding: 0 0 0 3px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: calc(18px * 0.02);
+    color: #19242c;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__delivery-info {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__location-address {
+    padding: 8px 0 0 3px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__location-address {
+    padding: 10px 0 0 2px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__location-address-small {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: calc(14px * 0.02);
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px 0 0 3px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__location-address-small {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: calc(14px * 0.02);
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+    padding: 10px 0 0 2px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__delivery-tel {
+    padding: 10px 0 0 5px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__delivery-mail {
+    padding: 7px 0 0 5px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__delivery-tel {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__delivery-mail {
+    padding-top: 7px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .map {
+    min-height: 385px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1390px) {
+  .map {
+    max-height: 628px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contacts__br {
+    display: none;
+  }
+}
+
+@media (min-width: 1390px) {
+  .contacts__br {
+    display: block;
+  }
+}
